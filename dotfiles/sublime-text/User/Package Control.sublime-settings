@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"CodeFormatter",
+		"GitGutter",
+		"gruvbox",
+		"Gruvbox Dark",
+		"Log Highlight",
+		"Loom Game Engine",
+		"MarkdownLivePreview",
+		"Package Control",
+		"SublimeLinter",
+	],
+}

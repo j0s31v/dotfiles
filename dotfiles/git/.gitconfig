@@ -1,0 +1,33 @@
+[user]
+  email = j0s31v@gmail.com
+  name = José Ignacio Valenzuela
+  signingKey = ""
+[color]
+  ui = auto
+[core]
+  excludesfile = $HOME/.gitignore
+  attributesfile = $HOME/.gitattributes
+[gpg]
+  program = gpg
+[commit]
+  gpgSign = false
+  template = ~/.gitcommit
+[tag]
+  forceSignAnnotated = false
+[github]
+  user = j0s31v
+[diff "localizablestrings"]
+  textconv = "iconv -f utf-16 -t utf-8"
+; [credential]
+;   helper = osxkeychain
+[alias]
+  co = checkout
+  shortsha = rev-parse --short HEAD
+  st = status --short --branch
+  ts = st
+  lg = log --graph --pretty=format:'%Cred%h%Creset %C(cyan)%an%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+  recent = ! git reflog | grep 'checkout: moving from' | head -n 50 | egrep -oh ' \\S+$' | awk '!x[$0]++'
+[gc]
+  auto = 0
+[merge]
+  ff = no

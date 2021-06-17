@@ -1,0 +1,3 @@
+sda3_crypt UUID=d5b320f6-0514-4533-95f9-93bae54f9dd4 none luks,discard
+sdb_crypt /dev/sdb	none	luks
+sdc_crypt /dev/sdc none luks

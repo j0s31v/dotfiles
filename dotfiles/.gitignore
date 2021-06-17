@@ -1,0 +1,6 @@
+mysql/.mysql/workbench/**
+!mysql/.mysql/workbench/connections.xml
+gtk/gtk-3.0/**
+!gtk/gtk-3.0/bookmarks
+ssh/.ssh/id_rsa.pub
+ssh/.ssh/id_rsa

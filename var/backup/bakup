@@ -1,0 +1,7 @@
+apt list --installed > ~/.backup/ubuntu_packages || echo "apt list failed"
+cat /etc/hosts > ~/.backup/hosts || echo "save hosts failed"
+cat /etc/fstab > ~/.backup/fstab || echo "save fstab failed"
+cat /etc/crypttab > ~/.backup/crypttab || echo "save crypttab failed"
+php -m > ~/.backup/php_modules || "php failed"
+cat /etc/cron.d/crontab-work > ~/.backup/crontab-work
+cat /etc/cron.d/crontab-user > ~/.backup/crontab-user

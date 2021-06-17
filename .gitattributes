@@ -1,0 +1,4 @@
+.gitattributes !filter !diff
+dotfiles/home/.user/secret/** filter=git-crypt diff=git-crypt
+dotfiles/ssh/.ssh/keys/* filter=git-crypt diff=git-crypt
+dotfiles/zsh/.zsh_history filter=git-crypt diff=git-crypt

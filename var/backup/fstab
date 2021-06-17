@@ -1,0 +1,29 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+/dev/mapper/vgubuntu-root /               ext4    errors=remount-ro 0       1
+# /boot was on /dev/sda2 during installation
+UUID=3fbbb01b-a156-4d9f-9561-549ad57dd4f0 /boot           ext4    defaults        0       2
+# /boot/efi was on /dev/sda1 during installation
+UUID=221D-D9A9  /boot/efi       vfat    umask=0077      0       1
+#/dev/mapper/vgubuntu-swap_1 none            swap    sw              0       0
+/dev/mapper/sdb_crypt /home ext4 defaults 0 0
+
+# Folders
+/dev/mapper/sdc_crypt /home/roy/Storage ext4 defaults,x-gvfs-hide 0 0
+/dev/vgubuntu/workspace /home/roy/Workspace ext4 defaults,x-gvfs-hide 0 0
+
+# Bind Folders
+/opt/snap /home/roy/snap none defaults,bind,x-gvfs-hide 0 0 
+/home/roy/Storage/Downloads /home/roy/Downloads none defaults,bind,x-gvfs-hide 0 0 
+/home/roy/Storage/Videos /home/roy/Videos none defaults,bind,x-gvfs-hide 0 0 
+/home/roy/Storage/Music /home/roy/Music none defaults,bind,x-gvfs-hide 0 0 
+/home/roy/Storage/Pictures /home/roy/Pictures none defaults,bind,x-gvfs-hide 0 0 
+
+# Swap Files
+#/mnt/Storage/swapfile none swap sw 0 0
+

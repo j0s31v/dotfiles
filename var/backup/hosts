@@ -1,0 +1,175 @@
+127.0.0.1	localhost
+127.0.1.1	N552VW
+
+# The following lines are desirable for IPv6 capable hosts
+::1	ip6-localhost ip6-loopback
+fe00::0	ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+# Machines ::::::::::::::::::::::::::::::::::::::::::::::::::
+192.168.1.110   notebook
+192.168.1.120	zelu
+
+# Projects ::::::::::::::::::::::::::::::::::::::::::::::::::
+#192.168.20.213          chat.po
+#173.230.131.172         proactivemining.com
+192.168.0.30            owncloud.pi
+192.168.1.94            motherbase
+
+# PO3 - Dev :::::::::::::::::::::::::::::::::::::::::::::::::
+10.10.10.10  po3-lxc devel po3-devel devel.po3
+10.10.10.10  saascoreserver
+10.10.10.10  mailcatcher.po
+10.10.10.10  master.po3
+10.10.10.10  ih.po3
+10.10.10.10  api.po3
+
+10.10.10.10  adp.po3
+10.10.10.10  amsa.po3
+10.10.10.10  amsavpp.po3
+10.10.10.10  cmdic.po3
+10.10.10.10  demo.po3
+10.10.10.10  dt.po3
+10.10.10.10  entel-gdci.po3
+10.10.10.10  esb.po3
+10.10.10.10  gdet.po3
+10.10.10.10  generico.po3
+10.10.10.10  gprodet.po3
+10.10.10.10  hblt.po3
+10.10.10.10  nca.po3
+10.10.10.10  pmo.po3
+10.10.10.10  pmomaipu.po3
+10.10.10.10  po.po3
+10.10.10.10  pucobre.po3
+10.10.10.10  ryqdand.po3
+10.10.10.10  ryqgd.po3
+10.10.10.10  santander.po3
+10.10.10.10  standard.po3
+10.10.10.10  vpr.po3
+
+# :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+# PO SERVERS - IP PRIVADA
+# :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+# Iorana 1 ::::::::::::::::::::::::::::::::::::::::::::::::::
+200.55.200.253        xen-iorana1
+200.55.200.225        po3-prod-web1
+200.55.200.229        po3-prod-db1
+200.55.200.231        po-lb1
+200.55.200.234        po3-prod-arbit1
+200.55.200.236        po3-prod-arbit2
+200.55.200.237        po3-scprod-web1
+200.55.200.239        po3-scprod-arbit1
+200.55.200.241        po-storage1
+200.55.200.243        po-prod-mail1
+200.55.200.248        xen-torre
+200.55.200.251        po3-scprod-db1
+
+# Iorana 2 ::::::::::::::::::::::::::::::::::::::::::::::::::
+200.55.200.254        xen-iorana2
+200.55.200.226	      po3-prod-web2
+200.55.200.232        po-lb2
+200.55.200.233        po3-prod-db2
+200.55.200.238        po3-scprod-web2
+200.55.200.240        po3-scprod-arbit2
+200.55.200.242        po-storage2
+200.55.200.244        po-prod-mail2
+200.55.200.252        po3-scprod-db2
+
+# Servicios :::::::::::::::::::::::::::::::::::::::::::::::::
+#200.55.200.228        po3-rel-lb
+200.55.200.230        po-lb
+200.55.200.245        po-prod-mail
+200.55.200.250        po3-scprod-db
+
+# PO3 :::::::::::::::::::::::::::::::::::::::::::::::::::::::
+200.55.200.224        po3-entel # off
+200.55.200.76         sfpowebx3 # off
+200.55.200.227        po3-test
+
+# APPS ::::::::::::::::::::::::::::::::::::::::::::::::::::::
+200.55.200.221        po-selenium
+200.55.200.246        po-redmine
+200.55.200.57         po-ldap
+200.55.200.58         po-gitlab
+200.55.200.235        po-monitor
+
+# Intellisoft :::::::::::::::::::::::::::::::::::::::::::::::
+200.55.200.59         po-devserver
+200.55.200.73         powebx4
+200.55.200.77         greenhsec
+200.55.200.97         po-delfos
+
+# Varios ::::::::::::::::::::::::::::::::::::::::::::::::::::
+#10.10.201.37          gdplan.test.proactiveoffice.com
+192.168.10.200        po-backup
+200.72.249.190        gdplan.test.proactiveoffice.com
+200.55.200.230        crm.proactiveoffice.com
+
+# :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+# PO SERVERS - IP PRIVADA
+# :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#192.168.150.10        xen-iorana1
+#192.168.150.110       po3-prod-db1
+#192.168.150.111       po3-prod-db2
+#192.168.150.112       po3-prod-arbit1
+#192.168.150.114       po3-prod-arbit2
+#192.168.150.115       po3-scprod-db1
+#192.168.150.116       po3-scprod-db2
+#192.168.150.117       po3-scprod-arbit1
+#192.168.150.119       po3-scprod-arbit2
+#192.168.150.20        xen-iorana2
+#192.168.50.118        po3-scprod-db
+#192.168.50.120        po3-prod-arbit
+#192.168.50.121        po3-scprod-arbit
+#192.168.50.130        po-storage1
+#192.168.50.131        po-storage2
+#192.168.50.140        po-lb1
+#192.168.50.141        po-lb2
+#192.168.50.142        po-lb
+#192.168.50.150        po3-prod-web1
+#192.168.50.151        po3-prod-web2
+#192.168.50.155        po3-scprod-web1
+#192.168.50.156        po3-scprod-web2
+#192.168.50.157        po3-rel-web1
+#192.168.50.158        po3-rel-web2
+#192.168.50.159        po3-rel-lb1
+#192.168.50.160        po-selenium
+#192.168.50.160        po3-rel-lb2
+#192.168.50.190        po-prod-mail1
+#192.168.50.191        po-prod-mail2
+#192.168.50.192        po-prod-mail
+#192.168.50.30         po-monitor
+#192.168.50.50         gitlab
+#192.168.50.51         ldap
+#192.168.50.52         powebx4
+#192.168.50.53         delfos
+#192.168.50.54         greenhsec
+#192.168.50.60         gitlab
+#192.168.50.61         ldap
+#192.168.50.62         powebx4
+#192.168.50.63         delfos
+#192.168.50.64         greenhsec
+#192.168.50.99         xen-tower
+
+# PO - OnSite :::::::::::::::::::::::::::::::::::::::::::::::
+
+# Hacienda
+#190.153.227.89        po-hacienda1
+163.247.45.149	      po-hacienda po-hacienda2
+
+# Amsa
+#192.168.1.7           po-amsa
+#200.72.254.103        po-amsa
+
+# Corfo - Test
+#10.10.1.23            osb.corfo.cl
+#10.10.1.105           orctest.corfo.cl
+#10.10.1.105           ewsqa.corfo.cl
+
+# Corfo - Prod
+#10.10.1.102           osb.corfo.cl
+#200.27.19.176         postulacion.corfo.cl  postulacion.corfo.cl

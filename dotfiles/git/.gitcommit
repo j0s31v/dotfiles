@@ -1,0 +1,48 @@
+<tipo>: <titulo> 
+# |<----            Largo máximo de 72 caracteres                ---->|
+
+# |<----  Word wrap de la descripción en máximo 72 caracteres    ---->|
+[Descripción de implementación]
+# Explicar cual es el problema que este commit resuelve.
+
+# |<----            Word wrap en máximo 72 caracteres            ---->|
+[Referencia a ticket y a recursos que se estimen convenientes]
+# - Ticket redmine #123
+# - Link a recurso de donde se basa la solución
+# - Link a documentación de librería
+# --- COMMIT END ---
+
+# <tipo> DEBE ser uno de los posibles tipos   
+#    feat     (Nuevo feature)
+#    fix      (bug fix)
+#    refactor (Refactorización de código de producción)
+#    style    (Formateo general de estilo de código)
+#    docs     (Cambios de documentación)
+#    test     (Agregar o Refactorizar pruebas; no cambia código de 
+#              producción)
+#    chore    (Cambios al proceso de build de la aplicación o 
+#              herramientas auxiliares; no cambia código de producción)
+# --------------------
+# Consideraciones:
+#   - El titulo es obligatorio y debe Utilizar mayúsculas en la primera 
+#     palabra, el largo ideal de esta sección es de 50 caracteres.
+#   - <titulo> DEBE estar en forma imperativa y debe poder completar la 
+#     oración.
+#     "Si se aplica, este commit ___________________"
+#     Por Ejemplo:
+#     - "Corrige llamada a metodo metodoPulento()"
+#     - "Refactoriza queries en controlador a repositorio"
+#     - "Cambia los parametros del método"
+#   - No terminar el título del commit con un punto.
+#   - El título y la descripción DEBEN estar separados por una línea en
+#     blanco.
+#   - La descripción DEBERIA explicar el "qué" y el "porqué" y no el 
+#     "cómo" de una solución (el código explica el cómo).
+#   - Listados de detalles en la descripción DEBEN ir precedidos por el
+#     caracter "-"
+# --------------------
+# Template de commit basado en gist adeekshith/.git-commit-template.txt
+# https://gist.github.com/adeekshith/cd4c95a064977cdc6c50
+# --------------------
+# Tipos de incidencia obtenidos de la guía de commits convencionales
+# https://conventionalcommits.org/lang/es
